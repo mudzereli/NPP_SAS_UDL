@@ -127,7 +127,6 @@
             <WordsStyle name="FOLDER IN COMMENT" fgColor="AA66CC" colorStyle="1" fontStyle="4" />             <!-- MACRO WORD FOLDERS   -->
             <WordsStyle name="DELIMITERS1"       fgColor="FF4444" colorStyle="1" fontStyle="1" nesting="3" /> <!-- QUOTED STRING        -->
             <WordsStyle name="DELIMITERS2"       fgColor="AA66CC" colorStyle="1" fontStyle="1" />             <!-- MACRO VARIABLES      -->
-            <WordsStyle name="DELIMITERS3"       fgColor="99CC00" colorStyle="1" fontStyle="1" />             <!-- CHARACTER FORMATS    -->
         </Styles>
     </UserLang>
 </NotepadPlus>
