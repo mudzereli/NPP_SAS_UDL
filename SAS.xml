@@ -1,0 +1,133 @@
+<NotepadPlus>
+    <UserLang name="SAS" ext="sas" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="yes" foldCompact="no" forcePureLC="2" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="yes" Keywords4="yes" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <!-- COMMENT FOLDERS -->
+            <Keywords name="Comments">
+                00*  02;
+                00%* 02;
+                03/* 04*/
+            </Keywords>
+            <!-- CODE OPERATORS -->
+            <Keywords name="Operators1">= &gt; &lt; &amp; | ^ + - * / . , ;</Keywords>
+            <!-- WORD OPERATORS -->
+            <Keywords name="Operators2">
+                EQ NE GT LT GE LE IN AND OR NOT
+                eq ne gt lt ge le in and or not
+            </Keywords>
+            <!-- PARENTHESIS FOLDER OPENERS -->
+            <Keywords name="Folders in code1, open">(</Keywords>
+            <!-- PARENTHESIS FOLDER CLOSERS -->
+            <Keywords name="Folders in code1, close">)</Keywords>
+            <!-- CODE FOLDER OPENERS -->
+            <Keywords name="Folders in code2, open">
+                DATA "PROC SQL" PROC CASE DO
+                DATA "PROC sql" PROC case do
+            </Keywords>
+            <!-- CODE FOLDER CLOSERS -->
+            <Keywords name="Folders in code2, close">
+                RUN QUIT RUN end END
+                run quit run end end
+            </Keywords>
+            <Keywords name="Folders in comment, open">
+                %MACRO %DO
+                %macro %do
+            </Keywords>
+            <Keywords name="Folders in comment, close">
+                %MEND %END
+                %mend %end
+            </Keywords>
+            <!-- CONDITIONAL STATEMENTS-->
+            <Keywords name="Keywords1">
+                IF WHEN THEN ELSE
+                if when then else
+            </Keywords>
+            <!-- SAS PROCEDURE NAMES-->
+            <Keywords name="Keywords2">
+                APPEND BMDP CALENDAR CATALOG CDISC CHART CIMPORT COMPARE CONTENTS CONVERT COPY CORR CPORT DATASETS DBCSTAB DISPLAY DOCUMENT EXPLODE EXPORT FCMP FONTREG _FORMAT FORMS FREQ HTTP IMPORT INFOMAPS ITEMS JAVAINFO MEANS METADATA METALIB METAOPERATE MIGRATE OPTIONS OPTLOAD OPTSAVE PDS PDSCOPY PLOT PMENU PRINT PRINTTO PROTO PRTDEF PRTEXP PWENCODE RANK REGISTRY RELEASE REPORT SCAPROC SOAP SORT SOURCE SQL STANDARD SUMMARY TABULATE TAPECOPY TAPELABEL TEMPLATE TEMPLATE TIMEPLOT TRANSPOSE TRANTAB UNIVARIATE VAXTOINTEG XSL WEBMDDB
+                append bmdp calendar catalog cdisc chart cimport compare contents convert copy corr cport datasets dbcstab display document explode export fcmp fontreg _format forms freq http import infomaps items javainfo means metadata metalib metaoperate migrate options optload optsave pds pdscopy plot pmenu print printto proto prtdef prtexp pwencode rank registry release report scaproc soap sort source sql standard summary tabulate tapecopy tapelabel template template timeplot transpose trantab univariate vaxtointeg xsl webmddb
+            </Keywords>
+            <!-- SAS MACRO KEYWORDS -->
+            <Keywords name="Keywords3">%</Keywords>
+            <!-- SAS FORMAT KEYWORDS -->
+            <Keywords name="Keywords4">
+                $ASCII $BASE64X $BINARY $CHAR $EBCDIC $HEX $MSGCASE $OCTAL $QUOTE $REVERJ $REVERS $UPCASE $VARYING $ $N8601B $N8601BA $N8601E $N8601EA $N8601EH $N8601EX $N8601H $N8601X B8601DA B8601DN B8601DT B8601DZ B8601LZ B8601TM B8601TZ DATE DATEAMPM DATETIME DAY DDMMYY DDMMYYx DOWNAME DTDATE DTMONYY DTWKDATX DTYEAR DTYYQC E8601DA E8601DN E8601DT E8601DZ E8601LZ E8601TM E8601TZ HHMM HOUR JULDAY JULIAN MMDDYY MMSS MMYY MONNAME MONTH MONYY PDJULG PDJULI QTR QTRR TIME TIMEAMPM TOD WEEKDATE WEEKDATX WEEKDAY WEEKU WEEKV WEEKW WORDDATE WORDDATX YEAR YYMM YYMMx YYMMDD YYMMDDx YYMON YYQ YYQx YYQR YYQRx $N8601B $N8601BA $N8601E $N8601EA $N8601EH $N8601EX $N8601H $N8601X B8601DA B8601DN B8601DT B8601DZ B8601LZ B8601TM B8601TZ E8601DA E8601DN E8601DT E8601DZ E8601LZ E8601TM E8601TZ BEST BESTDp BINARY COMMA COMMAX Dp DOLLAR DOLLARX E FLOAT FRACT HEX IB IBR IEEE NEGPAREN NUMX OCTAL PD PERCENT PERCENTN PIB PIBR PK PVALUE RB ROMAN S370FF S370FIB S370FIBU S370FPD S370FPDU S370FPIB S370FRB S370FZD S370FZDL S370FZDS S370FZDT S370FZDU SSN VAXRB VMSZN WORDF WORDS Z ZD
+                $ascii $base64x $binary $char $ebcdic $hex $msgcase $octal $quote $reverj $revers $upcase $varying $ $n8601b $n8601ba $n8601e $n8601ea $n8601eh $n8601ex $n8601h $n8601x b8601da b8601dn b8601dt b8601dz b8601lz b8601tm b8601tz date dateampm datetime day ddmmyy ddmmyyx downame dtdate dtmonyy dtwkdatx dtyear dtyyqc e8601da e8601dn e8601dt e8601dz e8601lz e8601tm e8601tz hhmm hour julday julian mmddyy mmss mmyy monname month monyy pdjulg pdjuli qtr qtrr time timeampm tod weekdate weekdatx weekday weeku weekv weekw worddate worddatx year yymm yymmx yymmdd yymmddx yymon yyq yyqx yyqr yyqrx $n8601b $n8601ba $n8601e $n8601ea $n8601eh $n8601ex $n8601h $n8601x b8601da b8601dn b8601dt b8601dz b8601lz b8601tm b8601tz e8601da e8601dn e8601dt e8601dz e8601lz e8601tm e8601tz best bestdp binary comma commax dp dollar dollarx e float fract hex ib ibr ieee negparen numx octal pd percent percentn pib pibr pk pvalue rb roman s370ff s370fib s370fibu s370fpd s370fpdu s370fpib s370frb s370fzd s370fzdl s370fzds s370fzdt s370fzdu ssn vaxrb vmszn wordf words z zd
+            </Keywords>
+            <!-- SQL KEYWORDS -->
+            <Keywords name="Keywords5">
+                CREATE TABLE AS SELECT CASE END FROM WHERE "GROUP BY" "ORDER BY"
+                create table as select case end from where "group by" "order by"
+            </Keywords>
+            <!-- SAS OPTIONS -->
+            <Keywords name="Keywords6">
+                ALTER BUFNO BUFSIZE CNTLLEV COMPRESS DLDMGACTION DROP ENCRYPT FILECLOSE FIRSTOBS GENMAX GENNUM IDXNAME IDXWHERE IN INDEX KEEP LABEL OBS OBSBUF OUTREP POINTOBS PW PWREQ READ RENAME REPEMPTY REPLACE REUSE SORTEDBY SPILL TOBSNO TYPE WHERE WHEREUP WRITE
+                alter bufno bufsize cntllev compress dldmgaction drop encrypt fileclose firstobs genmax gennum idxname idxwhere in index keep label obs obsbuf outrep pointobs pw pwreq read rename repempty replace reuse sortedby spill tobsno type where whereup write
+                DATA OUTFILE OUTTABLE DBMS LABEL REPLACE SHEET
+                data outfile outtable dbms label replace sheet
+            </Keywords>
+            <!-- SAS FUNCTION NAMES -->
+            <Keywords name="Keywords7">
+                ANYXDIGIT DIVIDE DIM HBOUND LBOUND BAND BLSHIFT BNOT BOR BRSHIFT BXOR PRXCHANGE PRXMATCH PRXPAREN PRXPARSE PRXPOSN ANYALNUM ANYALPHA ANYCNTRL ANYDIGIT ANYFIRST ANYGRAPH ANYLOWER ANYNAME ANYPRINT ANYPUNCT ANYSPACE ANYUPPER ANYXDIGIT BYTE CAT CATQ CATS CATT CATX CHAR CHOOSEC CHOOSEN COALESCEC COLLATE COMPARE COMPBL COMPGED COMPLEV COMPRESS COUNT COUNTC COUNTW DEQUOTE FIND FINDC FINDW FIRST IFC INDEX INDEXC INDEXW LEFT LENGTH LENGTHC LENGTHM LENGTHN LOWCASE MD5 MISSING NLITERAL NOTALNUM NOTALPHA NOTCNTRL NOTDIGIT NOTFIRST NOTGRAPH NOTLOWER NOTNAME NOTPRINT NOTPUNCT NOTSPACE NOTUPPER NOTXDIGIT NVALID PROPCASE QUOTE RANK REPEAT REVERSE RIGHT SCAN SOUNDEX SPEDIS STRIP SUBPAD SUBSTR SUBSTRN TRANSLATE TRANSTRN TRANWRD TRIM TRIMN UPCASE VERIFY ALLCOMB ALLPERM COMB GRAYCODE LCOMB LEXCOMB LEXCOMBI LEXPERK LEXPERM LFACT LPERM PERM DATDIF DATE DATEJUL DATEPART DATETIME DAY DHMS HMS HOLIDAY HOUR INTCINDEX INTCK INTCYCLE INTFIT INTFMT INTGET INTINDEX INTNX INTSEAS INTSHIFT INTTEST JULDATE JULDATE7 MDY MINUTE MONTH NWKDOM QTR SECOND TIME TIMEPART TODAY WEEK WEEKDAY YEAR YRDIF YYQ CMISS CSS CV EUCLID GEOMEAN GEOMEANZ HARMEAN HARMEANZ IQR KURTOSIS LARGEST LPNORM MAD MAX MEAN MEDIAN MIN MISSING N NMISS ORDINAL PCTL RANGE RMS SKEWNESS SMALLEST STD STDERR SUM SUMABS USS VAR GEODIST ZIPCITYDISTANCE DCLOSE DCREATE DINFO DNUM DOPEN DOPTNAME DOPTNUM DREAD DROPNOTE FAPPEND FCLOSE FCOL FDELETE FEXIST FGET FILEEXIST FILENAME FILEREF FINFO FNOTE FOPEN FOPTNAME FOPTNUM FPOINT FPOS FPUT FREAD FREWIND FRLEN FSEP FWRITE MOPEN PATHNAME RENAME SYSMSG SYSRC MODULEC MODULEN BLACKCLPRC BLACKPTPRC BLKSHCLPRC BLKSHPTPRC COMPOUND CONVX CONVXP DACCDB DACCDBSL DACCSL DACCSYD DACCTAB DEPDB DEPDBSL DEPSL DEPSYD DEPTAB DUR DURP FINANCE GARKHCLPRC GARKHPTPRC INTRR IRR MARGRCLPRC MARGRPTPRC MORT NETPV NPV PVP SAVING YIELDP ARCOSH ARSINH ARTANH COSH SINH TANH RESOLVE SYMEXIST SYMGET SYMGLOBL SYMLOCAL ABS AIRY BETA CNONCT COALESCE CONSTANT DAIRY DEVIANCE DIGAMMA ERF ERFC EXP FACT FNONCT GAMMA GCD IBESSEL JBESSEL LCM LGAMMA LOG LOG1PX LOG10 LOG2 LOGBETA MOD MODZ MSPLINT SIGN SQRT TNONCT TRIGAMMA IFN CDF LOGCDF LOGPDF LOGSDF PDF POISSON PROBBETA PROBBNML PROBBNRM PROBCHI PROBF PROBGAM PROBHYPR PROBMC PROBNEGB PROBNORM PROBT SDF BETAINV CINV FINV GAMINV PROBIT QUANTILE TINV NORMAL RANBIN RANCAU RAND RANEXP RANGAM RANNOR RANPOI RANTBL RANTRI RANUNI UNIFORM ATTRC ATTRN CEXIST CLOSE CUROBS DROPNOTE DSNAME ENVLEN EXIST FETCH FETCHOBS GETVARC GETVARN IORCMSG LIBNAME LIBREF NOTE OPEN PATHNAME POINT RENAME REWIND SYSMSG SYSRC VARFMT VARINFMT VARLABEL VARLEN VARNAME VARNUM VARTYPE WHICHC WHICHN ADDR ADDRLONG DIF GETOPTION INPUT INPUTC INPUTN LAG PEEK PEEKC PEEKCLONG PEEKLONG PTRLONGADD PUT PUTC PUTN SLEEP SYSGET SYSPARM SYSPROCESSID SYSPROCESSNAME SYSPROD SYSTEM UUIDGEN FIPNAME FIPNAMEL FIPSTATE STFIPS STNAME STNAMEL ZIPCITY ZIPCITYDISTANCE ZIPFIPS ZIPNAME ZIPNAMEL ZIPSTATE ARCOS ARSIN ATAN ATAN2 COS SIN TAN CEIL CEILZ FLOOR FLOORZ FUZZ INT INTZ ROUND ROUNDE ROUNDZ TRUNC VARRAY VARRAYX VFORMAT VFORMATD VFORMATDX VFORMATN VFORMATNX VFORMATW VFORMATWX VFORMATX VINARRAY VINARRAYX VINFORMAT VINFORMATD VINFORMATDX VINFORMATN VINFORMATNX VINFORMATW VINFORMATWX VINFORMATX VLABEL VLABELX VLENGTH VLENGTHX VNAME VNAMEX VTYPE VTYPEX VVALUE VVALUEX HTMLDECODE HTMLENCODE URLDECODE URLENCODE
+                anyxdigit divide dim hbound lbound band blshift bnot bor brshift bxor prxchange prxmatch prxparen prxparse prxposn anyalnum anyalpha anycntrl anydigit anyfirst anygraph anylower anyname anyprint anypunct anyspace anyupper anyxdigit byte cat catq cats catt catx char choosec choosen coalescec collate compare compbl compged complev compress count countc countw dequote find findc findw first ifc index indexc indexw left length lengthc lengthm lengthn lowcase md5 missing nliteral notalnum notalpha notcntrl notdigit notfirst notgraph notlower notname notprint notpunct notspace notupper notxdigit nvalid propcase quote rank repeat reverse right scan soundex spedis strip subpad substr substrn translate transtrn tranwrd trim trimn upcase verify allcomb allperm comb graycode lcomb lexcomb lexcombi lexperk lexperm lfact lperm perm datdif date datejul datepart datetime day dhms hms holiday hour intcindex intck intcycle intfit intfmt intget intindex intnx intseas intshift inttest juldate juldate7 mdy minute month nwkdom qtr second time timepart today week weekday year yrdif yyq cmiss css cv euclid geomean geomeanz harmean harmeanz iqr kurtosis largest lpnorm mad max mean median min missing n nmiss ordinal pctl range rms skewness smallest std stderr sum sumabs uss var geodist zipcitydistance dclose dcreate dinfo dnum dopen doptname doptnum dread dropnote fappend fclose fcol fdelete fexist fget fileexist filename fileref finfo fnote fopen foptname foptnum fpoint fpos fput fread frewind frlen fsep fwrite mopen pathname rename sysmsg sysrc modulec modulen blackclprc blackptprc blkshclprc blkshptprc compound convx convxp daccdb daccdbsl daccsl daccsyd dacctab depdb depdbsl depsl depsyd deptab dur durp finance garkhclprc garkhptprc intrr irr margrclprc margrptprc mort netpv npv pvp saving yieldp arcosh arsinh artanh cosh sinh tanh resolve symexist symget symglobl symlocal abs airy beta cnonct coalesce constant dairy deviance digamma erf erfc exp fact fnonct gamma gcd ibessel jbessel lcm lgamma log log1px log10 log2 logbeta mod modz msplint sign sqrt tnonct trigamma ifn cdf logcdf logpdf logsdf pdf poisson probbeta probbnml probbnrm probchi probf probgam probhypr probmc probnegb probnorm probt sdf betainv cinv finv gaminv probit quantile tinv normal ranbin rancau rand ranexp rangam rannor ranpoi rantbl rantri ranuni uniform attrc attrn cexist close curobs dropnote dsname envlen exist fetch fetchobs getvarc getvarn iorcmsg libname libref note open pathname point rename rewind sysmsg sysrc varfmt varinfmt varlabel varlen varname varnum vartype whichc whichn addr addrlong dif getoption input inputc inputn lag peek peekc peekclong peeklong ptrlongadd put putc putn sleep sysget sysparm sysprocessid sysprocessname sysprod system uuidgen fipname fipnamel fipstate stfips stname stnamel zipcity zipcitydistance zipfips zipname zipnamel zipstate arcos arsin atan atan2 cos sin tan ceil ceilz floor floorz fuzz int intz round rounde roundz trunc varray varrayx vformat vformatd vformatdx vformatn vformatnx vformatw vformatwx vformatx vinarray vinarrayx vinformat vinformatd vinformatdx vinformatn vinformatnx vinformatw vinformatwx vinformatx vlabel vlabelx vlength vlengthx vname vnamex vtype vtypex vvalue vvaluex htmldecode htmlencode urldecode urlencode
+            </Keywords>
+            <!-- SAS STATEMENTS -->
+            <Keywords name="Keywords8">
+                SET FORMAT
+                set format
+            </Keywords>
+            <Keywords name="Delimiters">
+                00&quot; 02&quot; 
+                00&apos; 02&apos; 
+                03&amp;  05. 
+            </Keywords>
+        </KeywordLists>
+        <!--
+            WORDSTYLE OPTIONS
+                name:
+                    "name" = name of WordsStyle (must align with UDF layout)
+                bgColor:
+                    FFFFFF = hex color of background
+                    
+                fgColor:
+                    FFFFFF = hex color of foreground
+                    
+                colorStyle:
+                    0 = exact??
+                    1 = inherit background??
+                    
+                fontStyle:
+                    1 = bold
+                    2 = italic
+                    3 = ??
+                    4 = underline
+                    
+                nesting:
+                    n = ?? (something to do with which group to nest)
+        -->
+        <Styles>
+            <WordsStyle name="DEFAULT"           fgColor="000000" colorStyle="0" />
+            <WordsStyle name="COMMENTS"          fgColor="99CC00" colorStyle="1" fontStyle="2" />             <!-- /**/ COMMENTS        -->
+            <WordsStyle name="LINE COMMENTS"     fgColor="99CC00" colorStyle="1" fontStyle="2" />             <!-- *; AND %*; COMMENTS  -->
+            <WordsStyle name="NUMBERS"           fgColor="FF4444" colorStyle="1" fontStyle="1" />             <!-- ALL NUMBERS          -->
+            <WordsStyle name="KEYWORDS1"         fgColor="FF4444" colorStyle="1" fontStyle="4" />             <!-- CONDITIONALS         -->
+            <WordsStyle name="KEYWORDS2"         fgColor="AA66CC" colorStyle="1" />                           <!-- PROCEDURES NAMES     -->
+            <WordsStyle name="KEYWORDS3"         fgColor="AA66CC" colorStyle="1" />                           <!-- MACRO KEYWORDS       -->
+            <WordsStyle name="KEYWORDS4"         fgColor="99CC00" colorStyle="1" fontStyle="1" />             <!-- FORMAT KEYWORDS      -->
+            <WordsStyle name="KEYWORDS5"         fgColor="33B5E5" colorStyle="1" />                           <!-- SQL KEYWORDS         -->
+            <WordsStyle name="KEYWORDS6"         fgColor="33B5E5" colorStyle="1" />                           <!-- OPTIONS              -->
+            <WordsStyle name="KEYWORDS7"         fgColor="33B5E5" colorStyle="1" />                           <!-- FUNCTIONS            -->
+            <WordsStyle name="KEYWORDS8"         fgColor="33B5E5" colorStyle="1" />                           <!-- STATEMENTS           -->
+            <WordsStyle name="OPERATORS"         fgColor="FFBB33" colorStyle="1" fontStyle="1" />             <!-- OPERATORS            -->
+            <WordsStyle name="FOLDER IN CODE1"   fgColor="AA66CC" colorStyle="1" fontStyle="1" />             <!-- PARENTHESIS FOLDERS  -->
+            <WordsStyle name="FOLDER IN CODE2"   fgColor="33B5E5" colorStyle="1" fontStyle="4" />             <!-- CODE WORD FOLDERS    -->
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="AA66CC" colorStyle="1" fontStyle="4" />             <!-- MACRO WORD FOLDERS   -->
+            <WordsStyle name="DELIMITERS1"       fgColor="FF4444" colorStyle="1" fontStyle="1" nesting="3" /> <!-- QUOTED STRING        -->
+            <WordsStyle name="DELIMITERS2"       fgColor="AA66CC" colorStyle="1" fontStyle="1" />             <!-- MACRO VARIABLES      -->
+            <WordsStyle name="DELIMITERS3"       fgColor="99CC00" colorStyle="1" fontStyle="1" />             <!-- CHARACTER FORMATS    -->
+        </Styles>
+    </UserLang>
+</NotepadPlus>
