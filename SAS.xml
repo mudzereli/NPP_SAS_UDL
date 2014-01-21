@@ -15,8 +15,8 @@
             <Keywords name="Operators1">= &gt; &lt; &amp; | ^ + - * / . , ;</Keywords>
             <!-- WORD OPERATORS -->
             <Keywords name="Operators2">
-                EQ NE GT LT GE LE IN AND OR NOT
-                eq ne gt lt ge le in and or not
+                EQ NE GT LT GE LE IN AND OR NOT LIKE
+                eq ne gt lt ge le in and or not like
             </Keywords>
             <!-- PARENTHESIS FOLDER OPENERS -->
             <Keywords name="Folders in code1, open">(</Keywords>
