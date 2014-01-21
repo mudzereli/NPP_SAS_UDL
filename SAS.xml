@@ -66,8 +66,10 @@
             <Keywords name="Keywords6">
                 ALTER BUFNO BUFSIZE CNTLLEV COMPRESS DLDMGACTION DROP ENCRYPT FILECLOSE FIRSTOBS GENMAX GENNUM IDXNAME IDXWHERE IN INDEX KEEP LABEL OBS OBSBUF OUTREP POINTOBS PW PWREQ READ RENAME REPEMPTY REPLACE REUSE SORTEDBY SPILL TOBSNO TYPE WHERE WHEREUP WRITE
                 alter bufno bufsize cntllev compress dldmgaction drop encrypt fileclose firstobs genmax gennum idxname idxwhere in index keep label obs obsbuf outrep pointobs pw pwreq read rename repempty replace reuse sortedby spill tobsno type where whereup write
-                DATA OUTFILE OUTTABLE DBMS LABEL REPLACE SHEET
-                data outfile outtable dbms label replace sheet
+                DATA DATAFiLE OUTFILE OUTTABLE DBMS LABEL REPLACE SHEET OUT DBMS
+                data datafile outfile outtable dbms label replace sheet out dbms
+                TABLES MISSING NOROW NOCOL NOPERCENT
+                tables missing norow nocol nopercent
             </Keywords>
             <!-- SAS FUNCTION NAMES -->
             <Keywords name="Keywords7">
