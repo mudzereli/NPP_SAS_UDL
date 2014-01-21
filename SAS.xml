@@ -59,8 +59,8 @@
             </Keywords>
             <!-- SQL KEYWORDS -->
             <Keywords name="Keywords5">
-                CREATE TABLE AS SELECT CASE END FROM WHERE "GROUP BY" "ORDER BY"
-                create table as select case end from where "group by" "order by"
+                CREATE TABLE AS SELECT CASE END FROM "INNER JOIN" "OUTER JOIN" "LEFT JOIN" "RIGHT JOIN" "LEFT OUTER JOIN" "RIGHT OUTER JOIN" ON WHERE "GROUP BY" "ORDER BY" "UNION ALL" UNION
+                create table as select case end from "inner join" "outer join" "left join" "right join" "left outer join" "right outer join" on where "group by" "order by" "union all" union
             </Keywords>
             <!-- SAS OPTIONS -->
             <Keywords name="Keywords6">
