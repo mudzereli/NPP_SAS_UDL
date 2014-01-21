@@ -76,8 +76,8 @@
             </Keywords>
             <!-- SAS STATEMENTS -->
             <Keywords name="Keywords8">
-                SET FORMAT
-                set format
+                SET FORMAT DELETE
+                set format delete
             </Keywords>
             <Keywords name="Delimiters">
                 00&quot; 02&quot; 
