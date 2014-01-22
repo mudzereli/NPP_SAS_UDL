@@ -70,6 +70,8 @@
                 data datafile outfile outtable dbms label replace sheet out dbms
                 TABLES MISSING NOROW NOCOL NOPERCENT
                 tables missing norow nocol nopercent
+                BY DESCENDING ASCENDING NODUPKEY
+                by descending ascending nodupkey
             </Keywords>
             <!-- SAS FUNCTION NAMES -->
             <Keywords name="Keywords7">
