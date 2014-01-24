@@ -47,8 +47,8 @@
             </Keywords>
             <!-- SAS PROCEDURE NAMES-->
             <Keywords name="Keywords2">
-                APPEND BMDP CALENDAR CATALOG CDISC CHART CIMPORT COMPARE CONTENTS CONVERT COPY CORR CPORT DATASETS DBCSTAB DISPLAY DOCUMENT EXPLODE EXPORT FCMP FONTREG _FORMAT FORMS FREQ HTTP IMPORT INFOMAPS ITEMS JAVAINFO MEANS METADATA METALIB METAOPERATE MIGRATE OPTIONS OPTLOAD OPTSAVE PDS PDSCOPY PLOT PMENU PRINT PRINTTO PROTO PRTDEF PRTEXP PWENCODE RANK REGISTRY RELEASE REPORT SCAPROC SOAP SORT SOURCE SQL STANDARD SUMMARY TABULATE TAPECOPY TAPELABEL TEMPLATE TEMPLATE TIMEPLOT TRANSPOSE TRANTAB UNIVARIATE VAXTOINTEG XSL WEBMDDB
-                append bmdp calendar catalog cdisc chart cimport compare contents convert copy corr cport datasets dbcstab display document explode export fcmp fontreg _format forms freq http import infomaps items javainfo means metadata metalib metaoperate migrate options optload optsave pds pdscopy plot pmenu print printto proto prtdef prtexp pwencode rank registry release report scaproc soap sort source sql standard summary tabulate tapecopy tapelabel template template timeplot transpose trantab univariate vaxtointeg xsl webmddb
+                APPEND BMDP CALENDAR CATALOG CDISC CHART CIMPORT COMPARE CONTENTS CONVERT COPY CORR CPORT DATASETS DBCSTAB DISPLAY DOCUMENT EXPLODE EXPORT FCMP FONTREG _FORMAT FORMS FREQ HTTP IMPORT INFOMAPS ITEMS JAVAINFO MEANS METADATA METALIB METAOPERATE MIGRATE OPTIONS OPTLOAD OPTSAVE PDS PDSCOPY PLOT PMENU PRINT PRINTTO PROTO PRTDEF PRTEXP PWENCODE RANK REGISTRY RELEASE REPORT SCAPROC SOAP SORT SOURCE SQL STANDARD SUMMARY TABULATE TAPECOPY TAPELABEL TEMPLATE TEMPLATE TIMEPLOT TRANSPOSE TRANTAB UNIVARIATE VAXTOINTEG XSL WEBMDDB SURVEYSELECT
+                append bmdp calendar catalog cdisc chart cimport compare contents convert copy corr cport datasets dbcstab display document explode export fcmp fontreg _format forms freq http import infomaps items javainfo means metadata metalib metaoperate migrate options optload optsave pds pdscopy plot pmenu print printto proto prtdef prtexp pwencode rank registry release report scaproc soap sort source sql standard summary tabulate tapecopy tapelabel template template timeplot transpose trantab univariate vaxtointeg xsl webmddb surveyselect
             </Keywords>
             <!-- SAS MACRO KEYWORDS -->
             <Keywords name="Keywords3">%</Keywords>
@@ -66,8 +66,8 @@
             <Keywords name="Keywords6">
                 ALTER BUFNO BUFSIZE CNTLLEV COMPRESS DLDMGACTION DROP ENCRYPT FILECLOSE FIRSTOBS GENMAX GENNUM IDXNAME IDXWHERE IN INDEX KEEP LABEL OBS OBSBUF OUTREP POINTOBS PW PWREQ READ RENAME REPEMPTY REPLACE REUSE SORTEDBY SPILL TOBSNO TYPE WHERE WHEREUP WRITE
                 alter bufno bufsize cntllev compress dldmgaction drop encrypt fileclose firstobs genmax gennum idxname idxwhere in index keep label obs obsbuf outrep pointobs pw pwreq read rename repempty replace reuse sortedby spill tobsno type where whereup write
-                DATA DATAFiLE OUTFILE OUTTABLE DBMS LABEL REPLACE SHEET OUT DBMS
-                data datafile outfile outtable dbms label replace sheet out dbms
+                DATA DATAFILE OUTFILE OUTTABLE DBMS LABEL REPLACE SHEET OUT DBMS INFILE DLM INFORMAT METHOD
+                data datafile outfile outtable dbms label replace sheet out dbms infile dlm informat method
                 TABLES MISSING NOROW NOCOL NOPERCENT
                 tables missing norow nocol nopercent
                 BY DESCENDING ASCENDING NODUPKEY
@@ -113,7 +113,7 @@
                     n = ?? (something to do with which group to nest)
         -->
         <Styles>
-            <WordsStyle name="DEFAULT"           fgColor="000000" colorStyle="0" />
+            <WordsStyle name="DEFAULT"           fgColor="FFBB33" colorStyle="1" />
             <WordsStyle name="COMMENTS"          fgColor="99CC00" colorStyle="1" fontStyle="2" />             <!-- /**/ COMMENTS        -->
             <WordsStyle name="LINE COMMENTS"     fgColor="99CC00" colorStyle="1" fontStyle="2" />             <!-- *; AND %*; COMMENTS  -->
             <WordsStyle name="NUMBERS"           fgColor="FF4444" colorStyle="1" fontStyle="1" />             <!-- ALL NUMBERS          -->
@@ -125,7 +125,7 @@
             <WordsStyle name="KEYWORDS6"         fgColor="33B5E5" colorStyle="1" />                           <!-- OPTIONS              -->
             <WordsStyle name="KEYWORDS7"         fgColor="33B5E5" colorStyle="1" />                           <!-- FUNCTIONS            -->
             <WordsStyle name="KEYWORDS8"         fgColor="33B5E5" colorStyle="1" />                           <!-- STATEMENTS           -->
-            <WordsStyle name="OPERATORS"         fgColor="FFBB33" colorStyle="1" fontStyle="1" />             <!-- OPERATORS            -->
+            <WordsStyle name="OPERATORS"         fgColor="999999" colorStyle="1" fontStyle="1" />             <!-- OPERATORS            -->
             <WordsStyle name="FOLDER IN CODE1"   fgColor="AA66CC" colorStyle="1" fontStyle="1" />             <!-- PARENTHESIS FOLDERS  -->
             <WordsStyle name="FOLDER IN CODE2"   fgColor="33B5E5" colorStyle="1" fontStyle="4" />             <!-- CODE WORD FOLDERS    -->
             <WordsStyle name="FOLDER IN COMMENT" fgColor="AA66CC" colorStyle="1" fontStyle="4" />             <!-- MACRO WORD FOLDERS   -->
